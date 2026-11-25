@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anusha | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <h2 class="logo">GA</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+
+        <a href="https://github.com/anushanetha-16" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/anusha-gujjari-774221245" target="_blank">LinkedIn</a>
+
+    </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <img src="my.photo.webp" class="profile-img">
+
+    <h1>Hi, I'm <span id="typing"></span></h1>
+
+    <p class="subtitle">
+        Full-Stack DJango Developer 
+    </p>
+
+    <div class="hero-buttons">
+        <button class="btn" onclick="scrollToSection('projects')">View Projects</button>
+        <a href="AnuSha_cv.2026.pdf" target="_blank" class="btn outline">Resume</a>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills-box">
+        <div class="skill-card">Python</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">BOOTSTRAP</div>
+        <div class="skill-card">SQL</div>
+        <div class="skill-card">DJango</div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="project-container">
+
+        <div class="project-card">
+            <h3>Smart Task Manager</h3>
+            <p>Task app with LocalStorage, filters, and responsive UI.</p>
+
+            <div class="project-links">
+                <!--<a href="https://github.com/yagneshwarG" target="_blank">Code</a>-->
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+    <h2 class="section-title">Contact</h2>
+
+
+    <form class="contact-form" id="contact-form">
+        <input type="text" id="name" name="user_name" placeholder="Your Name" required>
+        <input type="email" id="email" name="user_email" placeholder="Your Email" required>
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="btn submit-btn">Send Message</button>
+    </form>
+</section>
+
+<footer class="footer">
+    © 2026 Anusha
+</footer>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</body>
+</html>
